@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:InputTestData xmlns:ns2="urn:org:easetech:easytest:1.0">
+	<TestMethod name="registerUserTest">
+		<Description>Different User Registration Tests </Description>
+		<TestRecord id="1">
+			<Description>User 1</Description>
+			<InputData>
+				<Entry value="Jan.Nowak" key="userName" />
+				<Entry value="password" key="password" />
+				<Entry value="Jan" key="firstName" />
+				<Entry value="Nowak" key="lastName" />
+				<Entry value="786675565" key="phoneNumber" />
+				<Entry value="nowakjan@gmail.com" key="email" />
+				<Entry value="ul. Grunwaldzka 452" key="address1" />
+				<Entry value="Mieszkanie nr 5" key="address2" />
+				<Entry value="Gdansk" key="city" />
+				<Entry value="Pomorskie" key="state" />
+				<Entry value="80-462" key="postalCode" />
+				<Entry value="POLAND" key="country" />
+			</InputData>
+		</TestRecord>
+		<TestRecord id="2">
+			<Description>User 2</Description>
+			<InputData>
+				<Entry value="Robert.Lubicz" key="userName" />
+				<Entry value="password" key="password" />
+				<Entry value="Robert" key="firstName" />
+				<Entry value="Lubicz" key="lastName" />
+				<Entry value="234657678" key="phoneNumber" />
+				<Entry value="lubiczRobert@gmail.com" key="email" />
+				<Entry value="ul. Swietojanska 232" key="address1" />
+				<Entry value="Mieszkanie nr 10" key="address2" />
+				<Entry value="Gdynia" key="city" />
+				<Entry value="Pomorskie" key="state" />
+				<Entry value="80-439" key="postalCode" />
+				<Entry value="POLAND" key="country" />
+			</InputData>
+		</TestRecord>
+		<TestRecord id="3">
+			<Description>User 3</Description>
+			<InputData>
+				<Entry value="Tomasz.Kowalski" key="userName" />
+				<Entry value="password2" key="password" />
+				<Entry value="Tomasz" key="firstName" />
+				<Entry value="Kowalski" key="lastName" />
+				<Entry value="123546765" key="phoneNumber" />
+				<Entry value="kowalskitomasz@gmail.com" key="email" />
+				<Entry value="ul. Sobieskiego 132" key="address1" />
+				<Entry value="Mieszkanie nr 2" key="address2" />
+				<Entry value="Gdynia" key="city" />
+				<Entry value="Pomorskie" key="state" />
+				<Entry value="80-432" key="postalCode" />
+				<Entry value="POLAND" key="country" />
+			</InputData>
+		</TestRecord>
+	</TestMethod>
+</ns2:InputTestData>
